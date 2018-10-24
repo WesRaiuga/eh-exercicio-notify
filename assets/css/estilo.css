@@ -1,0 +1,104 @@
+/* GERAL */
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1, h3, h6, p{
+    margin: 0;
+} 
+h1 {
+    color: #FFF;
+    font-family: 'Pacifico', cursive;
+    margin: 20px 0;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+h1 span{
+    color: green;
+}
+p{
+    color: gray;
+}
+
+/* BANNER */
+#verde{
+    background-color: green;
+    height: 10px;
+}
+
+#banner{
+    background-image: url(../images/background.png);
+    display: flex;
+    justify-content: center;
+}
+#banner div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#banner div:first-child p{
+    color: #FFF;
+}
+
+#icones{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+#icones li{
+    background-color: gray;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* SECAO 2 */
+#secao-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+.sec2-content{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sec2-content figure{
+    background-color: green;
+    margin: 0;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2-content figure img{
+    width: 43px;
+}
+.sec2-content h3{
+    margin: 20px 0;
+}
+.sec2-content p{
+    text-align: center;
+    font-size: 14px;
+}
+
+/* SECAO-3 */
+#secao-3{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    padding:40px 110px;
+    
+}
+#secao-3 div:last-child{
+    border-radius: 5%;
+}
