@@ -153,12 +153,9 @@ p{
 #submit:hover{
     cursor: pointer;
 }
-#video{
+iframe{
     border-radius: 20px;
-}
-#video iframe{
     border: 0;
-    z-index: -1;
 }
 
 /* SEÇÃO 4 */
